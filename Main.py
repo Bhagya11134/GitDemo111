@@ -2,7 +2,7 @@ import requests
 
 import json
 
-#This is python project to send sms
+#This is python project to send message
 def send_sms(number,message):
     url = 'https://www.fast2sms.com/dev/bulk'
     params = {
@@ -16,4 +16,4 @@ def send_sms(number,message):
     response = requests.get(url, params=params)
     dic = response.json()
     print(dic)
-send_sms("8880132852","How are you?")
+send_sms("7821923181","Hey there!")
