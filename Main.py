@@ -2,7 +2,7 @@ import requests
 
 import json
 
-#This is a python project for message sending
+#This is a python project for message sending.
 def send_sms(number,message):
     url = 'https://www.fast2sms.com/dev/bulk'
     params = {
