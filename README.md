@@ -1,2 +1,2 @@
 # GitDemo111
-Python code to send message .
+This is python code to send message.
