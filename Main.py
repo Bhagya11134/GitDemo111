@@ -16,4 +16,4 @@ def send_sms(number,message):
     response = requests.get(url, params=params)
     dic = response.json()
     print(dic)
-send_sms("7821923181","Hey!!!")
+send_sms("7821923181","Hey there!")
