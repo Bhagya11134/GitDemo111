@@ -4,7 +4,7 @@ import json
 
 #This is a python project for message sending.
 def send_sms(number,message):
-    url = 'https://www.fast2sms.com/dev/bulk'
+    url = 'http://www.fast2sms.com/dev/bulk'
     params = {
         'authorization': 'Tc5kJDQUPa1oOwGM4X0HFye6KpuxsjBzWd8E29SnhiqgYtRm7fB708MQSXFEkufHrTxb2zKDIGjVgAWJ',
         'sender_id': 'FSTSMS',
